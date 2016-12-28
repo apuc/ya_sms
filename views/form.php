@@ -8,11 +8,9 @@
 ?>
 
 <form action="/" method="post">
-    <textarea name="sms" id="" cols="60" rows="10">
-Пароль: 8420
+    <textarea name="sms" id="" cols="60" rows="10"><?= (empty($text) ? 'Пароль: 8420
 Спишется 100,51р.
-Перевод на счет 410012996111080
-    </textarea>
+Перевод на счет 410012996111080' : $text); ?></textarea>
     <br>
     <input type="submit" value="Отправить">
 </form>

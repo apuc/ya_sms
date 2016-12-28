@@ -9,7 +9,7 @@
 require_once 'lib/Parser.php';
 require_once 'lib/Search.php';
 
-Parser::render('views/form.php');
+Parser::render('views/form.php', ['text' => $_POST['sms']]);
 
 if(isset($_POST['sms'])){
     $sms = new Search($_POST['sms']);

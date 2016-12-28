@@ -6,8 +6,9 @@
  * Time: 15:06
  * @var $result array
  */
+//print_r($result);
 ?>
 
-<p>Код:</p>
-<p>Сумма:</p>
-<p>Кошелек:</p>
+<p>Код: <?= $result['password'] ?></p>
+<p>Сумма: <?= $result['price'] ?></p>
+<p>Кошелек: <?= $result['wallet'] ?></p>
