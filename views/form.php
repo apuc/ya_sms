@@ -7,7 +7,7 @@
  */
 ?>
 
-<form action="/" method="post">
+<form action="" method="post">
     <textarea name="sms" id="" cols="60" rows="10"><?= (empty($text) ? 'Пароль: 8420
 Спишется 100,51р.
 Перевод на счет 410012996111080' : $text); ?></textarea>
